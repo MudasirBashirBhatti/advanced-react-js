@@ -1,0 +1,26 @@
+.bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(0, 132, 255, 0.055);
+  border: 1px solid rgba(0, 195, 255, 0.562);
+}
+
+.image {
+  width: 20px;
+  height: 20px;
+  animation: Animate linear 5s infinite;
+}
+
+@keyframes Animate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
