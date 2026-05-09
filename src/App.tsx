@@ -1,9 +1,9 @@
-import Search from "./components/forms/Search/Search";
+import ActionStateHook from "./major-hooks/ActionStateHook";
 
 const App = () => {
   return (
     <div>
-      <Search />
+      <ActionStateHook />
     </div>
   );
 };
